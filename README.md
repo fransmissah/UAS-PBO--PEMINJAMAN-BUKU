@@ -3,7 +3,8 @@
 A Laravel 12 + Filament 3 web application to manage book inventory and borrowing records. Built as a final project for the Object-Oriented Programming (PBO) course.
 
 ## 👤 Author
-**Frans Dandy Riaudy Missah** 20230801536
+**Frans Dandy Riaudy Missah** 
+20230801536
 
 ## 🔗 Live Repository
 [https://github.com/fransmissah/UAS-PBO--PEMINJAMAN-BUKU](https://github.com/fransmissah/UAS-PBO--PEMINJAMAN-BUKU)
