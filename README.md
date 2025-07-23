@@ -1,48 +1,36 @@
-# 📚 UAS - Aplikasi Manajemen Peminjaman Buku
+# 📚 UAS Pemrograman Berbasis Objek – Aplikasi Peminjaman Buku
 
-A Laravel 12 & Filament 3 web application to manage book borrowing activities in a library. Built as a final project for the Object-Oriented Programming course.
+A Laravel 12 + Filament 3 web application to manage book inventory and borrowing records. Built as a final project for the Object-Oriented Programming (PBO) course.
 
 ## 👤 Author
+**Frans Dandy Riaudy Missah** 20230801536
 
-- **Name:** Frans Dandy Riaudy Missah
-- **NIM** 20230801536
-- **GitHub:** [fransmissah](https://github.com/fransmissah)
-
----
-
-## 🚀 Features
-
-- 📖 CRUD for books and borrowings
-- 🧾 Relational database using Eloquent ORM
-- 🎨 Admin dashboard built with Filament
-- 🧠 Automatic timestamping
-- 🗃️ Borrowing status management
+## 🔗 Live Repository
+[https://github.com/fransmissah/UAS-PBO--PEMINJAMAN-BUKU](https://github.com/fransmissah/UAS-PBO--PEMINJAMAN-BUKU)
 
 ---
 
-## ⚙️ Tech Stack
-
-- PHP 8.3
-- Laravel 12
-- Filament 3
-- SQLite (development)
-- TailwindCSS (via Filament)
-- VSCode (recommended editor)
+## ⚙️ Features
+- Manage books (CRUD)
+- Manage borrowings (CRUD)
+- Borrower name, book relation, return date
+- Book stock system (connected)
+- Built with Laravel 12 & Filament 3
 
 ---
 
-## 🔧 Installation Steps
+## 🛠️ Installation Steps
 
 ```bash
-git clone https://github.com/fransmissah/UAS-PBO--PEMINJAMAN BUKU.git
-cd UAS-PBO--PEMINJAMAN BUKU
+git clone https://github.com/fransmissah/UAS-PBO--PEMINJAMAN-BUKU.git
+cd UAS-PBO--PEMINJAMAN-BUKU
 composer install
 cp .env.example .env
 php artisan key:generate
 touch database/database.sqlite
 php artisan migrate --seed
 php artisan serve
-```
+
 
 ---
 
