@@ -34,8 +34,8 @@ A Laravel 12 & Filament 3 web application to manage book borrowing activities in
 ## 🔧 Installation Steps
 
 ```bash
-git clone https://github.com/fransmissah/uas-peminjaman-buku.git
-cd uas-peminjaman-buku
+git clone https://github.com/fransmissah/UAS-PBO--PEMINJAMAN BUKU.git
+cd UAS-PBO--PEMINJAMAN BUKU
 composer install
 cp .env.example .env
 php artisan key:generate
